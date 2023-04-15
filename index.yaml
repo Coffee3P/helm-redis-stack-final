@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  redis-stack:
+  - apiVersion: v2
+    appVersion: 6.2.6
+    created: "2023-04-15T07:26:01.101848597Z"
+    description: A Helm chart for Kubernetes
+    digest: f7481f739f90fc579cc985fc06338617d4923736ec6a8e02f94e53b4519a4d50
+    name: redis-stack
+    type: application
+    urls:
+    - https://github.com/Coffee3P/helm-redis-stack-final/releases/download/redis-stack-0.3.6/redis-stack-0.3.6.tgz
+    version: 0.3.6
+  redis-stack-server:
+  - apiVersion: v2
+    appVersion: 6.2.6
+    created: "2023-04-15T07:26:01.254149836Z"
+    description: A Helm chart for Kubernetes
+    digest: c4a2d9b7336c7bfd8433db3a6f50a60eaaa98fc4c3fcb370cb274a1152002bb9
+    name: redis-stack-server
+    type: application
+    urls:
+    - https://github.com/Coffee3P/helm-redis-stack-final/releases/download/redis-stack-server-0.3.6/redis-stack-server-0.3.6.tgz
+    version: 0.3.6
+generated: "2023-04-15T07:26:01.254158636Z"
